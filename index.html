@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Curve | Project Portal</title>
+<style>
+  :root{--navy:#1F3864;--gold:#BF9000;--teal:#1D9E75;--bg:#f5f7fb;--card:#fff;--text:#1b2433;--muted:#667085}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
+  header{background:var(--navy);color:#fff;padding:28px 6vw;border-bottom:4px solid var(--gold)}
+  header h1{font-size:1.8rem;letter-spacing:.5px}
+  header p{opacity:.85;margin-top:6px}
+  main{max-width:1100px;margin:32px auto;padding:0 6vw}
+  h2{color:var(--navy);margin:28px 0 14px;font-size:1.2rem;border-left:4px solid var(--gold);padding-left:10px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+  .card{background:var(--card);border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08);border-top:3px solid var(--teal);text-decoration:none;color:inherit;transition:transform .15s}
+  .card:hover{transform:translateY(-3px)}
+  .card h3{color:var(--navy);margin-bottom:6px}
+  .card span{color:var(--muted);font-size:.9rem}
+  footer{text-align:center;color:var(--muted);padding:30px;font-size:.85rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>The Curve</h1>
+  <p>54 Chowringhee Road, Kolkata &middot; Project Portal &middot; Alcove Realty</p>
+</header>
+<main>
+  <h2>Drawings &amp; Registers</h2>
+  <div class="grid">
+    <!-- Replace each href="#" with your real Google Sheet / Drive link -->
+    <a class="card" href="#"><h3>Structural</h3><span>GFC drawing register</span></a>
+    <a class="card" href="#"><h3>Architecture</h3><span>GFC drawing register</span></a>
+    <a class="card" href="#"><h3>MEP</h3><span>GFC drawing register</span></a>
+  </div>
+  <h2>Compliance</h2>
+  <div class="grid">
+    <a class="card" href="#"><h3>NOC Tracker</h3><span>Fire Safety &amp; AAI</span></a>
+    <a class="card" href="#"><h3>IGBC</h3><span>Green Homes precertification</span></a>
+  </div>
+  <h2>Dashboards</h2>
+  <div class="grid">
+    <a class="card" href="#"><h3>Live Dashboard</h3><span>Drawing status &amp; KPIs</span></a>
+  </div>
+</main>
+<footer>&copy; Alcove Realty &middot; Document Control</footer>
+</body>
+</html>
